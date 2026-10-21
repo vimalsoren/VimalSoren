@@ -140,7 +140,7 @@ This project is pre-configured for one-click deployment on [Netlify](https://www
 
 **Vimal Soren**
 - Frontend Developer & Creative Designer
-- GitHub: [@vimaljuniorofficial](https://github.com/vimalsoren)
+- GitHub: [@vimalsoren](https://github.com/vimalsoren)
 
 ---
 
