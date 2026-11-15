@@ -2,7 +2,7 @@
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/vimalsoren/VimalSoren)
 
-This is a personal portfolio website of theme Ubuntu 20.04, made using Next.js & tailwind CSS.
+This is a personal portfolio website of theme Vimal 20.04, made using Next.js & tailwind CSS.
 If you want to edit this, clone this project and edit the files in `/components`.
 
 To run this on localhost
