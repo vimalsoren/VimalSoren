@@ -1,6 +1,6 @@
 # Web simulation of UbuntuOS
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvimaljuniorofficial%2FVimalSoren)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/vimalsoren/VimalSoren)
 
 This is a personal portfolio website of theme Ubuntu 20.04, made using Next.js & tailwind CSS.
 If you want to edit this, clone this project and edit the files in `/components`.
@@ -10,7 +10,7 @@ type `npm start` and when u are done coding type `npm run build` to build your a
 
 _NOTE: if you have yarn just replace `npm start` and `npm run build` with `yarn start` and `yarn build`._
 
-<a href="https://www.buymeacoffee.com/vivek9patel" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 140px !important;" ></a>
+<a href="https://www.buymeacoffee.com/vimaljunior" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 140px !important;" ></a>
 
 ### To make the contact form work
 
@@ -29,10 +29,6 @@ NEXT_PUBLIC_SERVICE_ID = 'YOUR_SERVICE_ID'
 ```
 
 into it. Replace \*your user id and your service ID with your values in your EmailJS service.
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=vivek9patel/vivek9patel.github.io&type=Date)](https://star-history.com/#vivek9patel/vivek9patel.github.io&Date)
 
 ## This project was made using Create Next App! Here is the scripts that u can run.
 
