@@ -3,7 +3,7 @@ import BackgroundImage from '../util components/background-image';
 import SideBar from './side_bar';
 import apps from '../../apps.config';
 import Window from '../base/window';
-import UbuntuApp from '../base/ubuntu_app';
+import VimalApp from '../base/vimal_app';
 import AllApplications from '../screen/all-applications'
 import DesktopMenu from '../context menus/desktop-menu';
 import DefaultMenu from '../context menus/default';
@@ -246,7 +246,7 @@ export class Desktop extends Component {
                 }
 
                 appsJsx.push(
-                    <UbuntuApp key={index} {...props} />
+                    <VimalApp key={index} {...props} />
                 );
             }
         });
@@ -357,6 +357,12 @@ export class Desktop extends Component {
 
         // if the app is disabled
         if (this.state.disabled_apps[objId]) return;
+
+        const targetApp = apps.find(app => app.id === objId);
+        if (targetApp && targetApp.isExternalApp && targetApp.url) {
+            window.open(targetApp.url, "_blank");
+            return;
+        }
 
         if (this.state.minimized_windows[objId]) {
             // focus this app's window

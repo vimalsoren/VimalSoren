@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class UbuntuApp extends Component {
+export class VimalApp extends Component {
 
     openApp = () => {
         if (this.props.isExternalApp && this.props.url) {
@@ -34,4 +34,4 @@ export class UbuntuApp extends Component {
     }
 }
 
-export default UbuntuApp
+export default VimalApp

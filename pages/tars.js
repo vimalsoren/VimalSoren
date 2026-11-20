@@ -688,8 +688,9 @@ export default function TarsPage() {
                 <title>TARS — Vimal Soren</title>
                 <meta name="description" content="Ask TARS anything about Vimal Soren" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <link rel="icon" href="/images/logos/fevicon.svg" />
-                <link rel="apple-touch-icon" href="/images/logos/logo.png" />
+                <link rel="icon" type="image/jpeg" href="/assets/aistudio/Vimal_Soren_78cad58d.jpg" />
+                <link rel="shortcut icon" type="image/jpeg" href="/assets/aistudio/Vimal_Soren_78cad58d.jpg" />
+                <link rel="apple-touch-icon" href="/assets/aistudio/Vimal_Soren_78cad58d.jpg" />
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
                 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -795,7 +796,7 @@ export default function TarsPage() {
                         aria-label="Boot Vimal"
                         className="inline-flex items-center justify-center text-sm font-medium transition-colors shadow-sm h-9 w-9 border border-black bg-white hover:bg-[#f0f0f0] active:scale-95"
                     >
-                        <img src="/themes/Yaru/status/cof_orange_hex.svg" alt="" aria-hidden="true" className="h-6 w-6" />
+                        <img src="/assets/aistudio/Vimal_Soren_78cad58d.jpg" alt="" aria-hidden="true" className="h-6 w-6 rounded-full object-cover grayscale contrast-125" />
                     </Link>
                 </div>
                 <div className="relative group flex items-center">

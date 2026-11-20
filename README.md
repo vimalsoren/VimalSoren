@@ -1,4 +1,4 @@
-# Web simulation of UbuntuOS
+# Web simulation of VimalOS
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/vimalsoren/VimalSoren)
 

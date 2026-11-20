@@ -110,6 +110,7 @@ const apps = [
         desktop_shortcut: true,
         isExternalApp: true,
         url: "/tars",
+        screen: () => null,
     },
 ]
 

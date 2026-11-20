@@ -2,7 +2,7 @@ import dynamic from 'next/dynamic';
 import ReactGA from 'react-ga4';
 import Meta from "../components/SEO/Meta";
 
-const Ubuntu = dynamic(() => import("../components/ubuntu"), {
+const Vimal = dynamic(() => import("../components/vimal"), {
   ssr: false,
 });
 
@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <Meta />
-      <Ubuntu />
+      <Vimal />
     </>
   )
 }

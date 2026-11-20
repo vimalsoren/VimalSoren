@@ -1,5 +1,5 @@
 import React from 'react';
-import UbuntuApp from '../base/ubuntu_app';
+import VimalApp from '../base/vimal_app';
 
 export class AllApplications extends React.Component {
     constructor() {
@@ -50,11 +50,13 @@ export class AllApplications extends React.Component {
                 name: app.title,
                 id: app.id,
                 icon: app.icon,
-                openApp: this.props.openApp
+                openApp: this.props.openApp,
+                isExternalApp: app.isExternalApp,
+                url: app.url
             }
 
             appsJsx.push(
-                <UbuntuApp key={index} {...props} />
+                <VimalApp key={index} {...props} />
             );
         });
         return appsJsx;

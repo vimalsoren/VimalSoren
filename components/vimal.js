@@ -5,7 +5,7 @@ import LockScreen from './screen/lock_screen';
 import Navbar from './screen/navbar';
 import ReactGA from 'react-ga4';
 
-export default class Ubuntu extends Component {
+export default class Vimal extends Component {
 	constructor() {
 		super();
 		this.state = {

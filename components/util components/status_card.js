@@ -84,7 +84,7 @@ export class StatusCard extends Component {
 					</div>
 					<Slider
 						onChange={this.handleSound}
-						className="ubuntu-slider w-2/3"
+						className="vimal-slider w-2/3"
 						value={this.state.sound_level}
 						name="headphone_range"
 					/>
@@ -95,7 +95,7 @@ export class StatusCard extends Component {
 					</div>
 					<Slider
 						onChange={this.handleBrightness}
-						className="ubuntu-slider w-2/3"
+						className="vimal-slider w-2/3"
 						name="brightness_range"
 						value={this.state.brightness_level}
 					/>
