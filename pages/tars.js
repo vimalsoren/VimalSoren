@@ -356,7 +356,7 @@ function UserAvatar() {
     return (
         <div className="w-8 h-8 rounded-full overflow-hidden border border-black bg-white flex items-center justify-center flex-shrink-0">
             <img
-                src="/images/logos/bitmoji.png"
+                src="/images/logos/logo.jpg"
                 alt="User"
                 className="w-full h-full object-cover"
             />
@@ -688,9 +688,9 @@ export default function TarsPage() {
                 <title>TARS — Vimal Soren</title>
                 <meta name="description" content="Ask TARS anything about Vimal Soren" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <link rel="icon" type="image/jpeg" href="/assets/aistudio/Vimal_Soren_78cad58d.jpg" />
-                <link rel="shortcut icon" type="image/jpeg" href="/assets/aistudio/Vimal_Soren_78cad58d.jpg" />
-                <link rel="apple-touch-icon" href="/assets/aistudio/Vimal_Soren_78cad58d.jpg" />
+                <link rel="icon" type="image/jpeg" href="/images/logos/logo.jpg" />
+                <link rel="shortcut icon" type="image/jpeg" href="/images/logos/logo.jpg" />
+                <link rel="apple-touch-icon" href="/images/logos/logo.jpg" />
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
                 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -796,7 +796,7 @@ export default function TarsPage() {
                         aria-label="Boot Vimal"
                         className="inline-flex items-center justify-center text-sm font-medium transition-colors shadow-sm h-9 w-9 border border-black bg-white hover:bg-[#f0f0f0] active:scale-95"
                     >
-                        <img src="/assets/aistudio/Vimal_Soren_78cad58d.jpg" alt="" aria-hidden="true" className="h-6 w-6 rounded-full object-cover grayscale contrast-125" />
+                        <img src="/images/logos/logo.jpg" alt="" aria-hidden="true" className="h-6 w-6 rounded-full object-cover grayscale contrast-125" />
                     </Link>
                 </div>
                 <div className="relative group flex items-center">

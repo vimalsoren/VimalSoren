@@ -20,12 +20,12 @@ export default function Meta() {
             <meta name="theme-color" content="#E95420" />
 
             {/* Search Engine */}
-            <meta name="image" content="/assets/aistudio/Vimal_Soren_78cad58d.jpg" />
+            <meta name="image" content="/images/logos/logo.jpg" />
             {/* Schema.org for Google */}
             <meta itemProp="name" content="Vimal Soren Portfolio - ITI Fitter | Computer Skills" />
             <meta itemProp="description"
                 content="Vimal Soren's Personal Portfolio Website. Made with Vimal (Linux theme) by Next.js and Tailwind CSS." />
-            <meta itemProp="image" content="/assets/aistudio/Vimal_Soren_78cad58d.jpg" />
+            <meta itemProp="image" content="/images/logos/logo.jpg" />
             {/* Twitter */}
             <meta name="twitter:card" content="summary" />
             <meta name="twitter:title" content="Vimal Soren Portfolio - ITI Fitter | Computer Skills" />
@@ -33,20 +33,20 @@ export default function Meta() {
                 content="Vimal Soren's Personal Portfolio Website. Made with Vimal (Linux theme) by Next.js and Tailwind CSS." />
             <meta name="twitter:site" content="vimaljunior" />
             <meta name="twitter:creator" content="vimaljunior" />
-            <meta name="twitter:image:src" content="/assets/aistudio/Vimal_Soren_78cad58d.jpg" />
+            <meta name="twitter:image:src" content="/images/logos/logo.jpg" />
             {/* Open Graph general (Facebook, Pinterest & Google+) */}
             <meta name="og:title" content="Vimal Soren Portfolio - ITI Fitter | Computer Skills" />
             <meta name="og:description"
                 content="Vimal Soren's Personal Portfolio Website. Made with Vimal (Linux theme) by Next.js and Tailwind CSS." />
-            <meta name="og:image" content="/assets/aistudio/Vimal_Soren_78cad58d.jpg" />
+            <meta name="og:image" content="/images/logos/logo.jpg" />
             <meta name="og:url" content="https://github.com/vimaljuniorofficial/VimalSoren" />
             <meta name="og:site_name" content="Vimal Soren Personal Portfolio" />
             <meta name="og:locale" content="en_IN" />
             <meta name="og:type" content="website" />
 
-            <link rel="icon" type="image/jpeg" href="/assets/aistudio/Vimal_Soren_78cad58d.jpg" />
-            <link rel="shortcut icon" type="image/jpeg" href="/assets/aistudio/Vimal_Soren_78cad58d.jpg" />
-            <link rel="apple-touch-icon" href="/assets/aistudio/Vimal_Soren_78cad58d.jpg" />
+            <link rel="icon" type="image/jpeg" href="/images/logos/logo.jpg" />
+            <link rel="shortcut icon" type="image/jpeg" href="/images/logos/logo.jpg" />
+            <link rel="apple-touch-icon" href="/images/logos/logo.jpg" />
             <link rel="preload" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" as="style" />
             <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet"></link>
         </Head>

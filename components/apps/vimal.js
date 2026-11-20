@@ -126,7 +126,7 @@ function About() {
     return (
         <>
             <div className="w-20 h-20 md:w-28 md:h-28 my-4 bg-white rounded-full overflow-hidden">
-                <img className="w-full h-full object-cover grayscale contrast-125" src="/assets/aistudio/Vimal_Soren_78cad58d.jpg" alt="Vimal Soren Logo" />
+                <img className="w-full h-full object-cover grayscale contrast-125" src="/images/logos/logo.jpg" alt="Vimal Soren Logo" />
             </div>
             <div className=" mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
                 <div>my name is <span className="font-bold">Vimal Soren</span> ,</div>
